@@ -1,0 +1,26 @@
+body {
+  background-image: url("../images/poker.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.buttons input {
+  width: 50px;
+  margin: 10px;
+}
+
+.score input {
+  background-color: white;
+  text-align: center;
+  box-shadow: black 0 0 5px;
+}
+
+.wins input {
+  background-color: white;
+  text-align: center;
+  box-shadow: black 0 0 5px;
+  width: 30px;
+}
