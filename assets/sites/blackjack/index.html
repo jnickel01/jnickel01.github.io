@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack Game</title>
+  <link rel="stylesheet" href="assets/css/stylesheeet.css">
+  <script src="assets/js/game.js"></script>
+</head>
+<body>
+  <h1>Blackjack Game</h1>
+  <hr align="center" width="80%">
+
+  <section class="buttons">
+    <input type="button" value="Hit" onClick="hit()">
+    <input type="button" value="Reset" onClick="gameReset()">
+    <input type="button" value="Stand" onClick="stand()">
+  </section>
+
+  <section class="score">
+    <p>Your Score</p> 
+    <input type="text" id="yourScoreID" name="yourScore" readonly="true" disabled="disabled">
+    <p>Dealer's Score</p>
+    <input type="text" id="cpuScoreID" name="cpuScore" readonly="true" disabled="disabled">
+    <p>Round Number</p>
+    <input type="text" id="roundNoID" name="roundNo" readonly="true" disabled="disabled">
+  </section>
+
+  <hr align="center" width="80%">
+
+  <section class="wins">
+    <p>Your Wins</p>
+    <input type="text" id="playerWinsID" name="playerWins" readonly="true" disabled="disabled">
+    <p>Dealer's Wins</p>
+    <input type="text" id="aiWinsID" name="aiWins" readonly="true" disabled="disabled">
+  </section>
+
+  <hr align="center" width="80%">
+  <a class="selfPromo" href="https://twitter.com/jnickel01">© Joel Nickel, 2021</a>
+</body>
+</html>
