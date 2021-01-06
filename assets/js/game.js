@@ -38,8 +38,12 @@ function aWins() {
 function scoreReset() {
   playerScore = 0;
   aiScore = 0;
+  playerWins = 0;
+  aiWins = 0;
   document.getElementById("yourScoreID").value = playerScore;
   document.getElementById("cpuScoreID").value = aiScore;
+  document.getElementById("playerWinsID").value = playerWins;
+  document.getElementById("aiWinsID").value = aiWins;
 }
 
 function gameReset() {
