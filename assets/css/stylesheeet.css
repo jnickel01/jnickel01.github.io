@@ -24,3 +24,9 @@ body {
   box-shadow: black 0 0 5px;
   width: 30px;
 }
+
+.selfPromo {
+  color: white;
+  text-decoration: none;
+  text-shadow: black 0 0 10px;
+}
