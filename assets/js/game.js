@@ -8,9 +8,17 @@ var aiWins = 0;
 window.onload = onStartup;
 
 function onStartup() {
-  document.getElementById("roundNoID").value = roundNo;
-  document.getElementById("yourScoreID").value = "Game Not Started";
-  document.getElementById("cpuScoreID").value = "Game Not Started";
+  document.getElementsByClassName('scores')[0].style.visibility = 'hidden';
+  document.getElementsByClassName('infoTable')[0].style.visibility = 'hidden';
+  document.getElementsByClassName('hitStand')[0].style.visibility = 'hidden';
+}
+
+function startGame() {
+  document.getElementById('startButton').style.visibility = 'hidden';
+  document.getElementsByClassName('scores')[0].style.visibility = 'visible';
+  document.getElementsByClassName('infoTable')[0].style.visibility = 'visible';
+  document.getElementsByClassName('hitStand')[0].style.visibility = 'visible';
+  // setTimeout(hit, 1500);
 }
 
 function roundCounter() {

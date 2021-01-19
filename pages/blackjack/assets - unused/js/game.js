@@ -18,7 +18,7 @@ function startGame() {
   document.getElementsByClassName('scores')[0].style.visibility = 'visible';
   document.getElementsByClassName('infoTable')[0].style.visibility = 'visible';
   document.getElementsByClassName('hitStand')[0].style.visibility = 'visible';
-  setTimeout(hit, 1500);
+  // setTimeout(hit, 1500);
 }
 
 function roundCounter() {

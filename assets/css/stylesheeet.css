@@ -82,6 +82,13 @@ nav li {
   align-content: space-between;
 }
 
+.infoTable {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
 .infoTable input {
   background-color: white;
   color: black;
