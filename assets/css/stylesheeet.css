@@ -1,15 +1,19 @@
 body {
   color: white;
   background-color: white;
-  background-image: url("/assets/images/poker.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-image: url("/assets/images/blackjackthing.png");
+  background-size: auto;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
+hr {
+  max-width: 90%;
+}
+
+/* Styling for my navigation bar */
 header {
   background-color: rgba(0, 0, 0, .5);
   height: 20px;
@@ -35,10 +39,17 @@ nav li {
   margin-right: 20px;
 }
 
-.main h1, h2 {
+/* Main Styling for Rules Page */
+.rulesMain h1, h2 {
   text-shadow: black 0 0 4px;
 }
 
+.rulesMain p {
+  display: inline-block;
+  max-width: 50%;
+}
+
+/* Rules Page Start Buttons */
 .startButtons img {
   width: 105px;
   height: auto;
@@ -49,6 +60,37 @@ nav li {
   box-shadow: black 0 0 10px;
 }
 
+.scores input {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  width: 125px;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.hitStand input {
+  width: 75px;
+  height: auto;
+  display: inline;
+  align-content: space-between;
+}
+
+.infoTable input {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  width: 125px;
+}
+
+/* Footer Styling */
 footer {
   background-color: rgba(0, 0, 0, .5);
   position: fixed;
@@ -60,7 +102,7 @@ footer {
   text-align: center;
 }
 
-.selfPromo {
+.nameLink {
   color: white;
   text-decoration: none;
   text-shadow: black 0 0 10px;
