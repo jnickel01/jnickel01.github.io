@@ -1,0 +1,116 @@
+body {
+  color: white;
+  background-color: white;
+  background-image: url("/assets/images/blackjackthing.png");
+  background-size: auto;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+hr {
+  max-width: 90%;
+}
+
+/* Styling for my navigation bar */
+header {
+  background-color: rgba(0, 0, 0, .5);
+  height: 20px;
+  padding: 10px;
+  text-align: right;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 2px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Main Styling for Rules Page */
+.rulesMain h1, h2 {
+  text-shadow: black 0 0 4px;
+}
+
+.rulesMain p {
+  display: inline-block;
+  max-width: 50%;
+}
+
+/* Rules Page Start Buttons */
+.startButtons img {
+  width: 105px;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+.startButtons img:hover {
+  box-shadow: black 0 0 10px;
+}
+
+.scores input {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  width: 125px;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.hitStand input {
+  width: 75px;
+  height: auto;
+  display: inline;
+  align-content: space-between;
+}
+
+.infoTable {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.infoTable input {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  width: 125px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.nameLink {
+  color: white;
+  text-decoration: none;
+  text-shadow: black 0 0 10px;
+}
